@@ -1,0 +1,10 @@
+# Maven build artifacts and IDE settings
+target/
+.idea/
+.vscode/
+*.iml
+*.class
+# Never commit personal connection secrets
+.env
+.env.*
+!.env.example
